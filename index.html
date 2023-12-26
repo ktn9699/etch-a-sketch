@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="firstRow"> <h1> Etch-a-Sketch </h1> </div>
+  
+   <div class="grid"> 
+    </div>
+
+<div class="secondRow">
+    <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="16" class="slider" id="range">
+      </div>
+      <p class="output"> 16x16 </p>
+</div>
+
+<div class="thirdRow">
+    <button class="reset"> RESET </button>
+    <button class="black"> BLACK </button>
+    <button class="eraser"> ERASER </button>    
+<div> 
+   <button class="pick"> PICK A COLOR <input type="color" value="#000000" id="colorPicker">  </button> 
+</div> 
+<button class="random"> RANDOM COLOR </button>
+     
+</div>
+ <p class> Created by ktn </p>
+</body>
+
+<script src="script.js"> </script>
+</html>

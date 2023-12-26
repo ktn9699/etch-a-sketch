@@ -1,0 +1,70 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstRow h1 {
+font-size: 60px;
+font-family: 'Pacifico', cursive;
+margin: 20px;
+}
+
+.secondRow {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+
+
+.thirdRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+        }
+    
+.dimensions {
+margin: 10px;
+    font-size: 30px;
+}
+
+.grid {
+border-style: solid;
+border-width: 1px;
+display: grid;
+height: 600px;
+width: 600px;
+}
+.square {
+    height: 100%;
+    border-style: solid;
+    border-width: 0.1px;
+    margin: 0px;
+    border-color: black;
+}
+
+.output {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.thirdRow {
+    display: flex;
+    column-gap: 40px;
+}
+
+.pick, .reset, .random, .thirdRow button, .copyright{
+ background-color: rgb(255, 255, 255);
+ text-align: center;
+ padding:10px;
+ font-family: 'Roboto', sans-serif;
+ font-weight: bold;
+ border-style: solid;
+ border-color: black;
+ cursor: pointer;
+}
+
